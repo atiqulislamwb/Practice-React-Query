@@ -11,6 +11,7 @@ import DynamicParallel from "./components/DynamicParallel.page";
 import DependentQueriesPage from "./components/DependentQueriesPage";
 import PaginatedQueries from "./components/PaginatedQueries";
 import InfinteQueries from "./components/InfinteQueries";
+import Mutations from "./components/Mutations";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/rqusers" element={<ManualUsers />} />
         <Route path="/rqusers/:id" element={<UserDetail />} />
+        <Route path="/mutation" element={<Mutations />} />
         <Route path="/users" element={<Users />} />
         <Route path="/parallel" element={<Parallel />} />
         <Route path="/infinte-queries" element={<InfinteQueries />} />

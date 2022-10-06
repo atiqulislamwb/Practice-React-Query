@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="mt-10">
-      <div className="flex gap-8 item-center justify-center ">
+      <div className="flex gap-8 item-center justify-center flex-wrap ">
         <Link className="btn btn-accent" to="">
           Home
         </Link>
@@ -28,6 +28,9 @@ const Navbar = () => {
         </Link>
         <Link className="btn btn-warning" to="/infinte-queries">
           Infinte-Queries
+        </Link>
+        <Link className="btn btn-secondary" to="/mutation">
+          Mutation
         </Link>
       </div>
     </div>
